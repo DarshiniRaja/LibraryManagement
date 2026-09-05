@@ -22,6 +22,9 @@ public class BookController {
     public Book addBook(@RequestBody Book book) {
         return service.addBook(book);
     }
+    
+ // Controller endpoint to get all books
+    
 
     @GetMapping
     public List<Book> getBooks() {
